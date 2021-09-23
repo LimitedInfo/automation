@@ -2,11 +2,12 @@ import webbrowser
 import os
 import subprocess
 import pyperclip
-
+#! python3
 
 def main():
 
-    os.system(r"C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin\pycharm64.exe")
+    os.startfile(r"C:\Users\Andrew\PycharmProjects\personalWebsite\app.py")
+    os.startfile(r"C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE")
     # out = os.system(r"cd C:\Users\Andrew\PycharmProjects\personalWebsite")
     # out = subprocess.Popen(["set", "FLASK_ENV=development"])
     # out = subprocess.Popen(["flask", "run"])
